@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #eed6d6;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.product {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#cart {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #e0acac;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+    text-align: center;
+}
+
+#cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cart-items li {
+    margin-bottom: 10px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Adjust header styles for positioning */
+header {
+    padding: 20px;
+    display: flex;
+    align-items: center; /* Align logo and header text vertically */
+}
+
+h1 {
+    margin-left: 20px; /* Add some space between logo and header text */
+}
